@@ -13,5 +13,5 @@ channel.basic_publish(exchange='example_exchange', routing_key='example_key', bo
 
 print(" [x] Sent '%s'" % message)
 
-# Close the connection
+
 connection.close()
